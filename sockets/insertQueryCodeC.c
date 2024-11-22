@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <mysqlclient.h>
+#include <mysql.h>
 
 int main() {
     MYSQL *conn;
