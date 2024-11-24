@@ -14,13 +14,16 @@ int main()
     char line[MAX_LINE_LENGTH];
     char previousTime[20] = ""; 
 
-    while (fgets(line, sizeof(line), file)) { // Read each line
-        char time[20] = ""; // Variable to extract the current timestamp
+    while (fgets(line, sizeof(line), file)) 
+    { 
+        char time[20] = ""; 
+
         if (sscanf(line, " COUNT: %*d | Token: %*d | Time: [%19[^]]", time) == 1) {
-            if (strcmp(time, previousTime) != 0) { // Check if the timestamp is unique
-                printf("counter : %d | %s", counter, line); // Print the unique row
-                strncpy(previousTime, time, sizeof(previousTime) - 1); // Update previousTime
-                previousTime[sizeof(previousTime) - 1] = '\0'; // Ensure null termination
+            if (strcmp(time, previousTime) != 0) 
+            { 
+                printf("counter : %d | %s", counter, line); 
+                strncpy(previousTime, time, sizeof(previousTime) - 1); 
+                previousTime[sizeof(previousTime) - 1] = '\0'; 
                 counter++;
             }
         }

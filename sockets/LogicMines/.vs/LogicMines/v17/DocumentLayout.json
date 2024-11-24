@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|d:\\svv\\scanner_test_self\\c language\\sockets\\logicmines\\logicmines\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|solutionrelative:logicmines\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|d:\\svv\\scanner_test_self\\c language\\sockets\\logicmines\\logicmines\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|solutionrelative:logicmines\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|d:\\svv\\scanner_test_self\\c language\\sockets\\logicmines\\logicmines\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|solutionrelative:logicmines\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\logicmines\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|solutionrelative:logicmines\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|d:\\svv\\scanner_test_self\\c language\\sockets\\logicmines\\logicmines\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|solutionrelative:logicmines\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|d:\\svv\\scanner_test_self\\c language\\sockets\\logicmines\\logicmines\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B74F081C-903D-4DAB-8D44-BAD923333B3F}|LogicMines\\LogicMines.csproj|solutionrelative:logicmines\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +38,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Register.cs",
+              "RelativeDocumentMoniker": "LogicMines\\Register.cs",
+              "ToolTip": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Register.cs*",
+              "RelativeToolTip": "LogicMines\\Register.cs*",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAMwFoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:24:20.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Register.cs",
+              "RelativeDocumentMoniker": "LogicMines\\Register.cs",
+              "ToolTip": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Register.cs [Design]*",
+              "RelativeToolTip": "LogicMines\\Register.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:11:08.811Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Form1.cs",
-              "RelativeDocumentMoniker": "LogicMines\\Form1.cs",
-              "ToolTip": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Form1.cs*",
-              "RelativeToolTip": "LogicMines\\Form1.cs*",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACMAAAAQAAAA",
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Login.cs",
+              "RelativeDocumentMoniker": "LogicMines\\Login.cs",
+              "ToolTip": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Login.cs",
+              "RelativeToolTip": "LogicMines\\Login.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAhwBUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T07:59:04.399Z",
               "EditorCaption": ""
@@ -44,11 +77,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Form1.cs",
-              "RelativeDocumentMoniker": "LogicMines\\Form1.cs",
-              "ToolTip": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Form1.cs [Design]*",
-              "RelativeToolTip": "LogicMines\\Form1.cs [Design]*",
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Login.cs",
+              "RelativeDocumentMoniker": "LogicMines\\Login.cs",
+              "ToolTip": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\Login.cs [Design]",
+              "RelativeToolTip": "LogicMines\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T07:42:12.285Z",
               "EditorCaption": " [Design]"
