@@ -31,9 +31,6 @@ namespace LogicMines
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             close_button = new Button();
-            label8 = new Label();
-            Register_btn = new Button();
-            label9 = new Label();
             label3 = new Label();
             pictureBox2 = new PictureBox();
             login_button = new Button();
@@ -44,6 +41,7 @@ namespace LogicMines
             label2 = new Label();
             pictureBox1 = new PictureBox();
             Login_panel = new Panel();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             Login_panel.SuspendLayout();
@@ -60,44 +58,6 @@ namespace LogicMines
             close_button.TabIndex = 0;
             close_button.UseVisualStyleBackColor = true;
             close_button.Click += close_button_Click;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.Transparent;
-            label8.FlatStyle = FlatStyle.Flat;
-            label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(66, 165);
-            label8.Name = "label8";
-            label8.Size = new Size(94, 17);
-            label8.TabIndex = 12;
-            label8.Text = "Welcome to   ";
-            // 
-            // Register_btn
-            // 
-            Register_btn.BackColor = Color.Transparent;
-            Register_btn.FlatAppearance.MouseOverBackColor = Color.Crimson;
-            Register_btn.FlatStyle = FlatStyle.Flat;
-            Register_btn.Location = new Point(66, 236);
-            Register_btn.Name = "Register_btn";
-            Register_btn.Size = new Size(97, 35);
-            Register_btn.TabIndex = 3;
-            Register_btn.Text = "Register";
-            Register_btn.UseVisualStyleBackColor = false;
-            Register_btn.Click += Register_btn_Click;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.Transparent;
-            label9.FlatStyle = FlatStyle.Flat;
-            label9.Font = new Font("Viner Hand ITC", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.Crimson;
-            label9.Location = new Point(63, 190);
-            label9.Name = "label9";
-            label9.Size = new Size(188, 39);
-            label9.TabIndex = 13;
-            label9.Text = "Blind Concept";
             // 
             // label3
             // 
@@ -130,6 +90,7 @@ namespace LogicMines
             login_button.TabIndex = 0;
             login_button.Text = "Login";
             login_button.UseVisualStyleBackColor = true;
+            login_button.Click += login_button_Click;
             // 
             // linkLabel1
             // 
@@ -187,6 +148,7 @@ namespace LogicMines
             // Login_panel
             // 
             Login_panel.BackColor = Color.Transparent;
+            Login_panel.Controls.Add(label4);
             Login_panel.Controls.Add(pictureBox1);
             Login_panel.Controls.Add(label2);
             Login_panel.Controls.Add(password_tB);
@@ -196,10 +158,21 @@ namespace LogicMines
             Login_panel.Controls.Add(login_button);
             Login_panel.Controls.Add(pictureBox2);
             Login_panel.Controls.Add(label3);
-            Login_panel.Location = new Point(410, 56);
+            Login_panel.Location = new Point(277, 33);
             Login_panel.Name = "Login_panel";
             Login_panel.Size = new Size(283, 340);
             Login_panel.TabIndex = 1;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Bradley Hand ITC", 21.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.Crimson;
+            label4.Location = new Point(58, 50);
+            label4.Name = "label4";
+            label4.Size = new Size(166, 37);
+            label4.TabIndex = 9;
+            label4.Text = "Let's Login";
             // 
             // Login
             // 
@@ -208,9 +181,6 @@ namespace LogicMines
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
             Controls.Add(Login_panel);
-            Controls.Add(label9);
-            Controls.Add(label8);
-            Controls.Add(Register_btn);
             Controls.Add(close_button);
             ForeColor = SystemColors.ControlLight;
             FormBorderStyle = FormBorderStyle.None;
@@ -222,7 +192,6 @@ namespace LogicMines
             Login_panel.ResumeLayout(false);
             Login_panel.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
 
@@ -230,9 +199,6 @@ namespace LogicMines
         #endregion
 
         private Button close_button;
-        private Label label8;
-        private Button Register_btn;
-        private Label label9;
         private Label label3;
         private PictureBox pictureBox2;
         private Button login_button;
@@ -243,5 +209,6 @@ namespace LogicMines
         private Label label2;
         private PictureBox pictureBox1;
         private Panel Login_panel;
+        private Label label4;
     }
 }

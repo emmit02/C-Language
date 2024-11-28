@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
-            label9 = new Label();
-            label8 = new Label();
-            Login_btn = new Button();
             close_button = new Button();
             Register_panel = new Panel();
             label5 = new Label();
@@ -51,44 +48,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.Transparent;
-            label9.FlatStyle = FlatStyle.Flat;
-            label9.Font = new Font("Viner Hand ITC", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.Crimson;
-            label9.Location = new Point(55, 199);
-            label9.Name = "label9";
-            label9.Size = new Size(188, 39);
-            label9.TabIndex = 19;
-            label9.Text = "Blind Concept";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.Transparent;
-            label8.FlatStyle = FlatStyle.Flat;
-            label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(58, 174);
-            label8.Name = "label8";
-            label8.Size = new Size(94, 17);
-            label8.TabIndex = 18;
-            label8.Text = "Welcome to   ";
-            // 
-            // Login_btn
-            // 
-            Login_btn.BackColor = Color.Transparent;
-            Login_btn.FlatAppearance.MouseOverBackColor = Color.Crimson;
-            Login_btn.FlatStyle = FlatStyle.Flat;
-            Login_btn.Location = new Point(55, 249);
-            Login_btn.Name = "Login_btn";
-            Login_btn.Size = new Size(97, 35);
-            Login_btn.TabIndex = 16;
-            Login_btn.Text = "Login";
-            Login_btn.UseVisualStyleBackColor = false;
-            Login_btn.Click += Login_btn_Click;
             // 
             // close_button
             // 
@@ -117,7 +76,7 @@
             Register_panel.Controls.Add(registerbtn);
             Register_panel.Controls.Add(pictureBox4);
             Register_panel.Controls.Add(label4);
-            Register_panel.Location = new Point(383, 60);
+            Register_panel.Location = new Point(292, 56);
             Register_panel.Name = "Register_panel";
             Register_panel.Size = new Size(283, 340);
             Register_panel.TabIndex = 22;
@@ -241,9 +200,6 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
             Controls.Add(Register_panel);
-            Controls.Add(label9);
-            Controls.Add(label8);
-            Controls.Add(Login_btn);
             Controls.Add(close_button);
             ForeColor = SystemColors.ControlLight;
             FormBorderStyle = FormBorderStyle.None;
@@ -257,14 +213,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private Label label9;
-        private Label label8;
-        private Button Login_btn;
         private Button close_button;
         private Panel Register_panel;
         private Label label5;

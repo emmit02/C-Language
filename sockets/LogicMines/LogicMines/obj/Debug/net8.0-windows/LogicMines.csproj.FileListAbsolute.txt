@@ -33,3 +33,4 @@ D:\SVV\scanner_test_self\C Language\sockets\LogicMines\LogicMines\bin\Debug\net8
 D:\SVV\scanner_test_self\C Language\sockets\LogicMines\LogicMines\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 D:\SVV\scanner_test_self\C Language\sockets\LogicMines\LogicMines\obj\Debug\net8.0-windows\LogicMines.csproj.AssemblyReference.cache
 D:\SVV\scanner_test_self\C Language\sockets\LogicMines\LogicMines\obj\Debug\net8.0-windows\LogicMines.csproj.Up2Date
+D:\SVV\scanner_test_self\C Language\sockets\LogicMines\LogicMines\obj\Debug\net8.0-windows\LogicMines.Main.resources
