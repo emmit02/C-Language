@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DrzjyINTDfU=",
+  "dgSpecHash": "d4o4XY0O5HA=",
   "success": true,
-  "projectFilePath": "D:\\SVV\\scanner_test_self\\C Language\\sockets\\LogicMines\\LogicMines\\LogicMines.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\source\\C Language\\sockets\\LogicMines\\LogicMines\\LogicMines.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\binaryformatter\\3.0.0\\binaryformatter.3.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",

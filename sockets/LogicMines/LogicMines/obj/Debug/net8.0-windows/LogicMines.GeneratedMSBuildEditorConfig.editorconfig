@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LogicMines
-build_property.ProjectDir = D:\SVV\scanner_test_self\C Language\sockets\LogicMines\LogicMines\
+build_property.ProjectDir = C:\Users\DELL\source\C Language\sockets\LogicMines\LogicMines\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
